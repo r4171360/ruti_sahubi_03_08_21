@@ -24,7 +24,7 @@ export class IndexComponent implements OnInit, OnDestroy {
   favState;
   selectedKey: any;
 
-  constructor(protected appService: AppService, protected weatherService: WeatherService) {
+  constructor(public appService: AppService, protected weatherService: WeatherService) {
   }
 
   ngUnSubscribe: Subject<void> = new Subject<void>();

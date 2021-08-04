@@ -12,7 +12,7 @@ import {CurrentConditions} from '../model/current-conditions';
 })
 export class FavComponent implements OnInit {
 
-  constructor(protected weatherService: WeatherService, protected appService: AppService) {
+  constructor(protected weatherService: WeatherService, public appService: AppService) {
   }
 
   ngUnSubscribe: Subject<void> = new Subject<void>();
