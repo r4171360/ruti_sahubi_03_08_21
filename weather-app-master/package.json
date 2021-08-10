@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~12.1.4",
     "@angular/router": "~12.1.4",
     "@codewithdan/observable-store": "^2.1.0",
+    "express": "^4.17.1",
     "ngx-toastr": "^14.0.0",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
