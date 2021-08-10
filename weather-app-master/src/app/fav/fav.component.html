@@ -1,9 +1,10 @@
 <div class="forecasts">
   <div class="forecast" *ngFor="let forecast of favArr;">
     <div class="title"> {{forecast.title}}</div>
-    <div class="phrase"> {{forecast.text}}</div>
-    <div class="temperature">
+    <div class="phrase"> {{forecast.text}}</div> -->
+  <div class="temperature">
       {{forecast.temperature.Metric.Value|tempConverter:appService.tempMode}}{{appService.tempMode}}</div>
     <img src="{{forecast.icon | accuweatherIcon }}" />
   </div>
 </div>
+
